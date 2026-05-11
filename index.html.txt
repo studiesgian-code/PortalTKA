@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Buat Kamu — Platform belajar TKA terlengkap untuk siswa kelas 9. Materi, latihan soal, dan video pembelajaran Bahasa Indonesia, Inggris, Matematika, dan IPA." />
+  <title>Buat Kamu – Buat Kamu Sukses TKA</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button id="back-to-top" aria-label="Kembali ke atas"><i class="fas fa-chevron-up"></i></button>
+
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">
+        <div class="brand-icon">BK</div>
+        Buat Kamu
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+        <ul class="navbar-nav gap-1 mx-auto">
+          <li class="nav-item"><a class="nav-link" href="#services">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#courses">Mapel</a></li>
+          <li class="nav-item"><a class="nav-link" href="#videos">Video</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Tutor</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Harga</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+        </ul>
+        <a href="#pricing" class="nav-link nav-cta-btn ms-2">Daftar Sekarang 🚀</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="container position-relative" style="z-index:2">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="hero-badge reveal">
+            <span class="badge-dot"></span> Persiapan TKA Kelas 9 Terlengkap
+          </div>
+          <h1 class="hero-title reveal"> Buat Kamu<br><span>Sukses TKA! 🎉</span> </h1>
+          <p class="hero-subtitle reveal"> Platform belajar TKA paling seru buat siswa kelas 9. </p>
+          <div class="d-flex flex-wrap gap-3 reveal">
+            <a href="#courses" class="btn-hero-primary">Mulai Belajar Gratis ✨</a>
+            <a href="#services" class="btn-hero-outline">Kenapa Buat Kamu?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
